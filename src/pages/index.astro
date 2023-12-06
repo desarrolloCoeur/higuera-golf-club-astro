@@ -1,0 +1,268 @@
+---
+import LastBlogs from "../components/LastBlogs.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <!-- Hero Sextion -->
+    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+        <div id="hero" class="max-h-[80vh]">
+            <video
+                id="hero-video"
+                playsinline
+                autoplay
+                muted
+                width="1920"
+                height="1080"
+            >
+            </video>
+        </div>
+    </div>
+    <!-- Hero Section -->
+
+    <!-- Higuera Golf Club -->
+    <div
+        id="about-us"
+        class="flex flex-row items-center mt-20 mb-0 md:mb-0 md:mt-32"
+    >
+        <div class="flex items-center justify-center w-full md:w-2/5">
+            <div
+                class="text-center md:text-left w-full md:max-w-screen-sm mx-auto bg-white px-5 py-10 md:pr-10"
+            >
+                <h1 class="text-5xl text-main">Higuera Golf Club</h1>
+
+                <br />
+                <p class="text-justify text-xl mt-5">
+                    Located in Punta de Mita, México, Higuera Golf Club offers
+                    world class golf with innovative services and amenities.
+                    This Greg Norman designed course features some of the most
+                    breathtaking scenery available with stunning oceanfront
+                    features, well-manicured fairways and greens that seamlessly
+                    blend into the surrounding beauty.<br />
+
+                    <!-- Higuera Golf Club is truly one of the best golf experiences in all of México. -->
+                </p>
+
+                <img
+                    class="float-right my-10 md:hidden"
+                    src="img/higuera-golf-club-1.jpg"
+                    alt=""
+                    width="1000px"
+                />
+
+                <div class="mt-10">
+                    <a
+                        class="text-lg text-white bg-main px-5 py-2 rounded-sm hidden"
+                        href="#">WATCH VIDEO</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div class="w-3/5 hidden md:block">
+            <img
+                class="float-right"
+                src="img/higuera-golf-club-1.jpg"
+                alt=""
+                width="1000px"
+            />
+        </div>
+    </div>
+
+    <!-- Higuera Golf Club-end -->
+
+    <!-- bienvenido -->
+    <div class="mb-10 md:mb-26 md:mt-5">
+        <div class="flex flex-wrap items-center max-w-screen-xl mx-auto">
+            <div
+                class="text-center px-5 w-full my-14 md:my-20 sm:w-1/2 md:w-1/4"
+            >
+                <i class="fa-solid fa-golf-ball-tee icono_HGC"></i>
+                <h3 class="text-center text-2xl text-main">TEE TIMES</h3>
+                <p class="text-center text-xl my-5">
+                    Open daily, booking available from 7:30 am to 3:00 pm.
+                </p>
+                <div class="mt-8">
+                    <a
+                        class="text-white bg-main px-3 py-2 rounded-sm"
+                        href="https://www.chronogolf.com/club/higuera-golf-club"
+                    >
+                        BOOK A TEE TIME <i
+                            class="fa-solid fa-calendar text-white pl-3"></i></a
+                    >
+                </div>
+            </div>
+
+            <div
+                class="text-center px-5 w-full my-14 md:my-20 sm:w-1/2 md:w-1/4"
+            >
+                <i class="fa-solid fa-trophy icono_HGC"></i>
+                <h3 class="text-center text-2xl text-main">
+                    COURSE EXPERIENCE
+                </h3>
+                <p class="text-center text-xl my-5">
+                    Check out the hole layouts, bunkers, distance and the
+                    incredible views.
+                </p>
+                <div class="mt-8">
+                    <a
+                        class="text-white bg-[#008000] px-3 py-2 rounded-sm"
+                        href="course-experience.html"
+                    >
+                        VIDEOS HOLE BY HOLE <i
+                            class="fa-solid fa-golf-ball-tee text-white pl-3"
+                        ></i></a
+                    >
+                </div>
+            </div>
+
+            <div
+                class="text-center px-5 w-full my-14 md:my-20 sm:w-1/2 md:w-1/4"
+            >
+                <i class="fa-solid fa-martini-glass-citrus icono_HGC"></i>
+                <h3 class="text-center text-2xl text-main">FOOD & BEVERAGE</h3>
+                <p class="text-center text-xl my-5">
+                    Experience our 2 snack bars on the course and our incredible
+                    restaurant.
+                </p>
+                <div id="open-popup-2" class="mt-8">
+                    <a class="text-white bg-main px-3 py-2 rounded-sm" href="#"
+                        >SEE GALLERY <i
+                            class="fa-solid fa-image text-white pl-3"></i></a
+                    >
+                </div>
+            </div>
+
+            <div
+                class="text-center px-5 w-full my-14 md:my-20 sm:w-1/2 md:w-1/4"
+            >
+                <i class="fa-solid fa-book icono_HGC"></i>
+                <h3 class="text-center text-2xl text-main">SCORECARD</h3>
+                <p class="text-center text-xl my-5">
+                    Check out the distance between holes before your tee time.
+                </p>
+                <div class="mt-8">
+                    <a
+                        class="text-white bg-main px-3 py-2 rounded-sm"
+                        href="img/scorecard.jpg"
+                        target="_blank"
+                        download
+                        >DOWNLOAD <i
+                            class="fa-solid fa-circle-down text-white pl-3"
+                        ></i></a
+                    >
+                    <!-- <a class="text-white bg-main px-3 py-2 rounded-sm" href="img/scorecard.jpg"><img src="img/scorecard.jpg" alt="imagen de ejemplo"/></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Galeria-->
+
+    <div class="galeria max-h-[800px] overflow-hidden">
+        <img src="img/higuera-golf-club-2.jpg" alt="" height="800px" />
+        <img src="img/higuera-golf-club-3.jpg" alt="" height="800px" />
+        <img src="img/higuera-golf-club-4.jpg" alt="" height="800px" />
+        <img src="img/higuera-golf-club-5.jpg" alt="" height="800px" />
+    </div>
+
+    <!--Galeria-end-->
+
+    <!--Golf Course-->
+    <div
+        class="flex flex-col items-center md:flex-row mb-20 mt-32 max-w-screen-xl mx-auto"
+    >
+        <div
+            class="w-full md:w-1/2 lg:w-2/5 flex items-center justify-center md:block"
+        >
+            <img class="object-fill" src="img/6.jpg" alt="" />
+        </div>
+        <div
+            class="flex items-center justify-center w-full text-center md:text-left md:w-1/2 lg:w-3/5"
+        >
+            <div class="max-w-screen-sm mx-auto p-5">
+                <h1 class="text-5xl text-main">The Golf Course</h1>
+                <br />
+
+                <p class="text-justify text-xl mb-5">
+                    The facilities and amenities at Higuera Golf Club are world
+                    class, an 18-hole Par 72 masterpiece artfully routed through
+                    the magnificent natural landscape.
+                </p>
+                <p class="text-justify text-xl mb-5">
+                    Just steps away from the beachfront, Higuera Golf Club
+                    challenges golfers with tricky layouts, strategic bunkering,
+                    ridges above the beach, amazing ocean views spread
+                    throughout the course, and even a peninsula green that's
+                    surrounded by water on three sides.
+                </p>
+                <p class="text-justify text-xl mb-5">
+                    Complement your experience by visiting our Pro-Shop & Snack
+                    Bar.
+                </p>
+
+                <div class="mt-10">
+                    <a
+                        class="text-lg text-white bg-main px-5 py-2 rounded-sm"
+                        href="course-experience.html"
+                        target="_blank">SEE OUR COURSE EXPERIENCE</a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Golf Course end-->
+    <div class="my-32 uppercase max-w-screen-md mx-auto">
+        <p class="text-center text-5xl text-main">
+            Higuera Golf Club is truly one of the best golf experiences in all
+            of México.
+        </p>
+    </div>
+
+    <!--Memberships, tournaments & events -->
+    <div
+        class="flex max-w-screen-xl mx-auto justify-around my-20 flex-wrap relative"
+    >
+        <div id="open-popup-1">
+            <img class="p-4 my-10" src="img/2.jpg" alt="" />
+            <a class="bg-main">
+                <div
+                    class="text-center -mt-40 my-3 mx-14 py-2 sticky border-[1px] border-solid rounded-sm transition-all hover:bg-main"
+                >
+                    <h2 class="text-white text-2xl">MEMBERSHIP</h2>
+                    <p class="text-white text-xl">REWARDING</p>
+                </div>
+            </a>
+        </div>
+        <div>
+            <img class="p-4 my-10" src="img/3.jpg" alt="" />
+            <a href="/halloweencup/">
+                <div
+                    class="text-center -mt-40 my-3 mx-14 py-2 sticky border-[1px] border-solid transition-all hover:bg-main"
+                >
+                    <h2 class="text-white text-2xl">CHAMPIONSHIP GOLF</h2>
+                    <p class="text-white text-xl">LEGENDARY</p>
+                </div>
+            </a>
+        </div>
+        <!-- 
+    <div id="open-popup-3">
+      <img class="p-4 my-10" src="img/5.jpg" alt="">
+      <a href="#">
+        <div class="text-center -mt-40   my-3 mx-14 py-2 sticky border-[1px] border-solid transition-all hover:bg-main ">
+          <h2 class="text-white text-2xl ">WEEDINGS & EVENTS</h2>
+          <p class="text-white text-xl">UNFORGETTABLE</p>
+        </div>
+      </a>
+    </div>-->
+    </div>
+
+    <!--Memberships, tournaments & events - end -->
+
+	<LastBlogs />
+
+    <!-- boton flotante -->
+    <a
+        href="https://www.chronogolf.com/club/higuera-golf-club"
+        class="btn-flotante">BOOK A TEE TIME</a
+    >
+</Layout>

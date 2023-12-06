@@ -1,0 +1,64 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+    <div class="float-right mx-4 pt-2">
+      <a href="#">ESPAÑOL</a> | <a href="/">ENGLISH</a>
+    </div>
+    <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+      <div class="px-6 w-full flex flex-wrap items-center justify-between">
+		<a href="/">
+			<img src="/img/higuera-golf-club-logo.webp" width="150px"alt="Higuera Golf Club" class="">
+		</a>
+
+        <div class="flex items-center">
+          <button
+            class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
+            type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY"
+            aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+              </path>
+            </svg>
+          </button>
+        </div>
+        <!-- collapse -->
+        <div class="navbar-collapse  grow items-center menu-mobile transition-all lg:block" id="navbarSupportedContentY">
+          <ul class="navbar-nav mr-auto lg:flex lg:flex-row lg:float-right">
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out"
+                href="/index#about-us" data-mdb-ripple="true" data-mdb-ripple-color="light">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out"
+                href="/course-experience" data-mdb-ripple="true" data-mdb-ripple-color="light">COURSE EXPERIENCE</a>
+            </li>
+            <li class="nav-item mb-2 lg:mb-0">
+              <a class="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out"
+                href="#contact" data-mdb-ripple="true" data-mdb-ripple-color="light">CONTACT</a>
+            </li>
+			<li class="nav-item mb-2 lg:mb-0">
+				<a class="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out"
+				  href="/blog" data-mdb-ripple="true" data-mdb-ripple-color="light">BLOG</a>
+			  </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-4 py-2 bg-main rounded-sm text-white hover:text-gray-700 transition duration-150 ease-in-out"
+                href="https://www.chronogolf.com/club/higuera-golf-club" data-mdb-ripple="true" data-mdb-ripple-color="light">BOOK A TEE TIME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-4 py-2  transition duration-150 ease-in-out" target="_blank"
+                href="https://www.facebook.com/Higuera-Golf-Club-108411901636841/?ref=page_internal" data-mdb-ripple="true" data-mdb-ripple-color="light"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out" target="_blank"
+                href="https://www.instagram.com/higueragolfclub/" data-mdb-ripple="true" data-mdb-ripple-color="light"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
